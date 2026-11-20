@@ -1,0 +1,16 @@
+Páginas do aplicativo de publicação do canal Sob a Areia
+
+Para que servem: a tela Branding do projeto do Google pede página inicial, política de privacidade, termos e um domínio
+autorizado. Estas três páginas resolvem isso. Elas precisam ficar num site seu.
+
+Caminho grátis (GitHub Pages):
+  1. Crie uma conta em github.com (se não tiver). Crie um repositório público com o nome  SEUUSUARIO.github.io
+  2. Envie para ele os três arquivos desta pasta: index.html, privacidade.html e termos.html (botão "Add file" > "Upload files").
+  3. Em alguns minutos o site responde em  https://SEUUSUARIO.github.io
+  4. Google Search Console (search.google.com/search-console): adicione a propriedade  https://SEUUSUARIO.github.io  e verifique
+     pelo arquivo HTML (baixe o arquivo que ele dá e envie para o mesmo repositório).
+  5. No Google Cloud > Google Auth Platform > Branding: página inicial = https://SEUUSUARIO.github.io ,
+     privacidade = .../privacidade.html , termos = .../termos.html , domínio autorizado = SEUUSUARIO.github.io . Salvar.
+  6. Público-alvo > Publicar app. Não envie logo.
+
+Com domínio próprio: suba as páginas no seu site e verifique o domínio no Search Console (arquivo HTML ou registro DNS).
